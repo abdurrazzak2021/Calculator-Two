@@ -3,6 +3,11 @@
     font-family: Gothan Rounded, sans-serif;
 }
 
+#container{
+    margin-top: 50px;
+    margin-left: 40%;
+}
+
 form{
     width: 250px;
     background-color: #ddd;
