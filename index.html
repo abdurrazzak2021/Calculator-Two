@@ -21,10 +21,13 @@
                 <hr>
                 <input type="button" value="&radic;"
                     onclick="calculator.screen.value = Math.sqrt(calculator.screen.value)">
-                <input type="button" value="CE" onclick="calculator.screen.value = ''">
                 <input type="button" value="C" onclick="calculator.screen.value = ''">
+                <!-- <input type="button" value="C" onclick="calculator.screen.value = ''"> -->
+
                 <input type="button" value="&larr;"
                     onclick="calculator.screen.value = calculator.screen.value.slice(0, -1)">
+                <input type="button" value="÷" onclick="calculator.screen.value = calculator.screen.value + '/'">
+
                 <br>
 
                 <input type="button" value="7" onclick="calculator.screen.value = calculator.screen.value + '7'">
@@ -47,10 +50,10 @@
                 <br>
 
                 <input type="button" value="0" onclick="calculator.screen.value = calculator.screen.value + '0'">
+                <input type="button" value="00" onclick="calculator.screen.value = calculator.screen.value + '00'">
                 <input type="button" value="." onclick="calculator.screen.value = calculator.screen.value + '.'">
                 <input type="button" value="=" onclick="calculator.screen.value = eval(calculator.screen.value)">
 
-                <input type="button" value="/" onclick="calculator.screen.value = calculator.screen.value + '/'">
                 <br>
 
             </form>
